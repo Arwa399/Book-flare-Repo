@@ -1,0 +1,9 @@
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-1 {
+    background-color:#745e4d;
+}

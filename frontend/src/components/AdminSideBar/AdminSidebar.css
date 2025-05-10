@@ -1,0 +1,24 @@
+.sidebar {
+    position: fixed;
+    top: 60px; /* ارتفاع الـ navbar، غيّره حسب ارتفاعك */
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 56px); /* علشان ياخد كل الطول ما عدا الـ navbar */
+    background-color:#745e4d;
+    padding: 1rem;
+    overflow-y: auto;
+    z-index: 1030; /* أعلى من المحتوى */
+    border-right: 1px solid #ddd;
+    font-family: serif;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .nav-link:hover,
+    .nav-link.active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    

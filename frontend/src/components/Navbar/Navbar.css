@@ -1,0 +1,99 @@
+.navbar {
+    height: 60px ;
+    background-color:#745e4d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1040;
+   
+}
+
+/* .brand{
+    display: flex;
+  
+  }  */
+
+.logo{
+    width: 25px ;
+    height: 25px;
+}
+.siteName{
+    margin-left: 5px;
+    margin-top: 0px;
+    color: white;
+    text-decoration: none;
+    font-family: serif ; 
+    font-size: 17px;
+}
+
+.searchSection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* translate: 100px; */
+}
+
+.searchInput{
+    font-family: serif ; 
+    padding-left: 15px;
+    width: 50%;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.btn{
+    margin-top: 3px;
+    font-family: serif ; 
+    height: 35px;
+    background-color: #a59182;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.btn:hover{
+    font-family: serif ; 
+    background-color: #a59182;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.nav-link i {
+    color: white;    
+}
+
+.nav-item a{
+    color: white; 
+}
+
+.nav-item a:hover{
+    color: white; 
+}
+
+.dropdown-menu{
+    background-color:#745e4d;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #a59182;
+}
+
+.dropdown-bg{
+    background-color:#745e4d;
+}
+
+.btn-1{
+    background-color:#745e4d;
+}
+
+.btn-1:hover{
+    background-color:#745e4d;
+}
+
+/* .navbar-toggler{
+    margin-top: 2px;
+}
+
+.navbar-toggler:hover{
+    margin-top: 2px;
+} */
